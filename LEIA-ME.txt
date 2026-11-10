@@ -1,0 +1,11 @@
+MINECRAFT CLOUD — ETAPA 1
+Protótipo de transmissão de tela entre dois navegadores usando WebRTC. Não contém Minecraft, GPU na nuvem, autenticação, controle remoto de teclado/mouse, servidor TURN ou hospedagem.
+
+Teste:
+1. Hospede index.html em HTTPS ou execute em localhost.
+2. Abra em dois computadores/navegadores.
+3. Jogador 1: Compartilhar tela > Criar oferta; envie o texto ao Jogador 2.
+4. Jogador 2: cole a oferta > Criar resposta; envie a resposta ao Jogador 1.
+5. Jogador 1: cole a resposta > Aplicar resposta.
+
+A conexão usa STUN público; algumas redes podem exigir TURN. Nesta etapa, a tela é capturada no computador do Jogador 1, ainda não numa GPU remota.
